@@ -1,26 +1,46 @@
 import { Button } from "@mui/material";
+import { Box, Container } from "@mui/system";
 import "./App.css";
 
 function App() {
   return (
-    <div id="main" class="flex flex-row mb-4">
-      <div id="header" class="h-screen">
-        <div id="MS">MS</div>
-        <div id="Container__buttons" class="flex flex-col mb-4">
+    <div id="main" class="flex flex-row">
+      <div
+        id="header"
+        class="absolute flex flex-col justify-between bg-gray-100 items-center h-screen p-4"
+      >
+        <div id="MS" class="text-5xl w-full py-3 bg-gray-200 w-100">
+          <p>MS</p>
+        </div>
+        <div id="Container__buttons" class="flex flex-col">
           <Button>HOME</Button>
           <Button>ABOUT</Button>
           <Button>SKILLS</Button>
           <Button>PROJECTS</Button>
           <Button>CONTACT</Button>
         </div>
-        <div id="Container__scroll">
-          <div>
-            <img alt="arrow icon"></img>
-            <p>scroll down</p>
-          </div>
+        <div id="Container__scroll" class="flex flex-row">
+          <svg
+            fill="none"
+            stroke="blue"
+            stroke-width="1.5"
+            viewBox="0 0 24 24"
+            xmlns="http://www.w3.org/2000/svg"
+            aria-hidden="true"
+          >
+            <path
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              d="M15.75 17.25L12 21m0 0l-3.75-3.75M12 21V3"
+            ></path>
+          </svg>
+          <p>scroll down</p>
         </div>
       </div>
-      <div> main body</div>
+      <div class="h-screen w-full bg-gray-200 text-center">
+        <div>Main</div>
+        <div>body</div>
+      </div>
     </div>
   );
 }
