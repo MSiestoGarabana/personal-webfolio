@@ -1,7 +1,16 @@
 import "./App.css";
 
 function App() {
-  return <h1 className="text-3xl font-bold underline">Hello world!</h1>;
+  return (
+    <div class="flex flex-row mb-4">
+      <header class="">
+        <div></div>
+        <div></div>
+        <div></div>
+      </header>
+      <div> main body</div>
+    </div>
+  );
 }
 
 export default App;
