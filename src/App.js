@@ -7,12 +7,12 @@ function App() {
     <div id="main" class="flex flex-row">
       <div
         id="header"
-        class="absolute flex flex-col justify-between bg-gray-100 items-center h-screen p-4"
+        class="absolute flex flex-col justify-between bg-gray-100 items-center h-screen "
       >
-        <div id="MS" class="text-5xl w-full py-3 bg-gray-200 w-100">
+        <div id="MS" class="text-5xl w-full py-3 bg-gray-200 w-full">
           <p>MS</p>
         </div>
-        <div id="Container__buttons" class="flex flex-col">
+        <div id="Container__buttons" class="flex flex-col p-5">
           <Button>HOME</Button>
           <Button>ABOUT</Button>
           <Button>SKILLS</Button>
