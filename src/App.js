@@ -1,16 +1,7 @@
 import "./App.css";
 
 function App() {
-  return (
-    <body className="App">
-      <nav className="navbar">
-        <p>navbar</p>
-      </nav>
-      <main className="body">
-        <p>body</p>
-      </main>
-    </body>
-  );
+  return <h1 className="text-3xl font-bold underline">Hello world!</h1>;
 }
 
 export default App;
