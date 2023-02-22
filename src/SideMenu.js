@@ -1,7 +1,7 @@
 import React from "react";
 import { Button } from "@mui/material";
 
-function NavBar() {
+function SideMenu() {
   return (
     <div id="main" class="flex flex-row">
       <div
@@ -42,4 +42,4 @@ function NavBar() {
     </div>
   );
 }
-export default NavBar;
+export default SideMenu;
