@@ -6,11 +6,11 @@ function SideMenu() {
     <div id="main" class="flex flex-row">
       <div
         id="header"
-        class="absolute flex flex-col justify-between bg-gray-100 items-center h-screen "
+        class="absolute flex flex-col justify-between bg-gray-200 items-center h-screen "
       >
         <div
           id="MS"
-          class="text-5xl w-full py-10 bg-gray-200 w-full text-center"
+          class="text-5xl w-full py-10 bg-gray-300 w-full text-center"
         >
           <p>MS</p>
         </div>
