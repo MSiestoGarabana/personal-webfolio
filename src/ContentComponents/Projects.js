@@ -3,9 +3,9 @@ import ComponentHeader from "./ComponentHeader";
 
 export const Projects = () => {
   return (
-    <div>
+    <div class="w-2/3 ml-80">
       <ComponentHeader />
-      <div class="bg-white w-2/3 rounded-3xl"> Projects</div>
+      <div class="bg-white rounded-3xl"> Projects</div>
     </div>
   );
 };

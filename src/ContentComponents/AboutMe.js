@@ -3,9 +3,9 @@ import ComponentHeader from "./ComponentHeader";
 
 export const AboutMe = () => {
   return (
-    <div>
+    <div class="w-2/3 ml-80">
       <ComponentHeader />
-      <div class="bg-white w-2/3 rounded-3xl">AboutMe</div>
+      <div class="bg-white rounded-3xl">AboutMe</div>
     </div>
   );
 };
