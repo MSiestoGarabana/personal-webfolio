@@ -5,7 +5,7 @@ export const AboutMe = () => {
   return (
     <div>
       <ComponentHeader />
-      AboutMe
+      <div class="bg-white w-2/3 rounded-3xl">AboutMe</div>
     </div>
   );
 };

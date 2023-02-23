@@ -5,7 +5,7 @@ export const Projects = () => {
   return (
     <div>
       <ComponentHeader />
-      Projects
+      <div class="bg-white w-2/3 rounded-3xl"> Projects</div>
     </div>
   );
 };

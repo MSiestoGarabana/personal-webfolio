@@ -5,7 +5,7 @@ export const Skills = () => {
   return (
     <div>
       <ComponentHeader />
-      Skills
+      <div class="bg-white w-2/3 rounded-3xl">Skills</div>
     </div>
   );
 };
