@@ -7,7 +7,7 @@ import { Contact } from "./ContentComponents/Contact";
 
 export const Content = () => {
   return (
-    <div>
+    <div class="ml-12">
       <Header />
       <AboutMe />
       <Skills />

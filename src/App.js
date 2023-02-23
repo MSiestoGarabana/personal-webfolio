@@ -8,7 +8,7 @@ function App() {
   return (
     <div class="h-screen w-full bg-gray-100 text-center">
       <SideMenu />
-      <Content />
+      <Content class="bg-white" />
       <Footer />
     </div>
   );
